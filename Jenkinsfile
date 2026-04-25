@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "eureka-server"
+        IMAGE_NAME = "svelugoti/custom-eurekaserver"
         CONTAINER_NAME = "eureka-server-container"
     }
 
